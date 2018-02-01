@@ -1,6 +1,7 @@
 # Dracula
 DRACULA: Decay, Recombination And Collisions compUtation for Low-temperature Antihydrogen
-This a code to calculate the formation and level population of antihydrogen, from a single passage of antiprotons
+
+This is a code to calculate the formation and level population of antihydrogen atoms, from a single passage of antiprotons
 through a positron plasma. Starting from empty level population (an ensemble of bare antiprotons) antihydrogen 
 bound states are formed via three-body and radiative recombination processes. The antihydrogen atoms can also
 be (de)excited, and ionised via collisions with positrons. All these processes are calculated by time evolving
