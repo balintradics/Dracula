@@ -14,7 +14,9 @@ which is available for download at: https://drive.google.com/open?id=17kysiRw3Cs
 2. Running the code is possible in 2 ways: command line options or steering from the code.
 - For the command line option the "main" executable can be used e.g. as follows:
 
+```
 $ ./main -f data/hydrogenDB.db -t 100 -d 1e+13 -an 1e+06 -b 1.0 -ot 5 -r 300 -otp ascii -of blah.txt
+
 SQLite filename : data/hydrogenDB.db
 positron temp : 100 K
 positron dens : 1e+13 /m3
@@ -39,11 +41,12 @@ Starting integration...
 Integration time: 1.0 seconds
 Total number of bound states:         4.280536E+00, burned antiprotons:         4.280536E+00
 Saving result to ascii file: blah.txt
+```
 
 The output file "blah.txt" contains two columns: n principal q.n. and level population.
 
 - An example for steering the computation from a code is added "mainFlight.cxx"
-
+```
 ./mainFlight data/hydrogenDB.db blah.txt
 flight time: 1000 us
 Reading in decay rates  from sqlite3 file data/hydrogenDB.db...
@@ -62,3 +65,4 @@ Starting integration...
 Integration time: 0.0 seconds
 Total number of bound states:         4.107787E+00, burned antiprotons:         0.000000E+00
 Saving result to ascii file: blah.txt_flight.dat
+```
