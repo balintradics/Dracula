@@ -1,7 +1,7 @@
 # Dracula
 DRACULA: Decay, Recombination And Collisions compUtation for Low-temperature Antihydrogen
 
-Results published in Phys. Rev. A 90, 032704 (2014), B. Radics, D.J. Murtagh, Y. Yamazaki and F. Robicheaux
+If you use the code please cite: Phys. Rev. A 90, 032704 (2014), B. Radics, D.J. Murtagh, Y. Yamazaki and F. Robicheaux
 DOI:https://doi.org/10.1103/PhysRevA.90.032704
 
 Requirements: sqlite3 (tested 3.20.1) and Gnu Scientific Library (tested 1.16)
